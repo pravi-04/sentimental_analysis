@@ -89,6 +89,8 @@ def analyze_sentiment_and_readability(text):
 
 # Streamlit app
 def main():
+    
+    st.set_page_config(layout="wide")
     st.title("Sentiment Analysis & Readability Tool")
 
     # User input
