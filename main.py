@@ -89,13 +89,13 @@ def analyze_sentiment_and_readability(text):
 
 # Streamlit app
 def main():
-    st.title("Sentiment Analysis and Readability App")
+    st.title("Sentiment Analysis and Readability Tool")
 
     # User input
     option = st.radio("Choose an option:", ("Enter Text", "Upload Text File"))
     user_input = ""
     if option == "Enter Text":
-        user_input = st.text_area("Input Text", "Type here...")
+        user_input = st.text_area("Input Text (100-150 words", "Type here...")
     else:
         uploaded_file = st.file_uploader("Choose a text file...", type=["txt"])
         if uploaded_file is not None:
