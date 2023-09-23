@@ -89,7 +89,7 @@ def analyze_sentiment_and_readability(text):
 
 # Streamlit app
 def main():
-    st.title("Sentiment Analysis and Readability Tool")
+    st.title("Sentiment Analysis & Readability Tool")
 
     # User input
     option = st.radio("Choose an option:", ("Enter Text", "Upload Text File"))
