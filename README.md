@@ -59,7 +59,7 @@ Launch the tool:
 ```
 streamlit run main.py
 ```
-Access the tool at http://localhost:8501 in your web browser.
+Access the tool at https://sentimental-analysis.streamlit.app/ in your web browser.
 
 ## Note:
 
